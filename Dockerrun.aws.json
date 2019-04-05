@@ -1,0 +1,13 @@
+{
+ "AWSEBDockerrunVersion": "1",
+ "Image": {
+    "Name": "dremio/dremio-oss",
+    "Update": "true"
+  },
+ "Ports": [
+   {
+     "ContainerPort": "9047"
+   }
+ ],
+ "Logging": "/var/log"
+}
